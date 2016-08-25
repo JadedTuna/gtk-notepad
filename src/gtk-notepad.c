@@ -603,7 +603,7 @@ int main(int argc, char* argv[]) {
     gtk_window_set_title(gwindow, title);
     gtk_window_set_default_size(gwindow, 640, 480);
     gtk_window_set_position(gwindow, GTK_WIN_POS_CENTER);
-    gtk_window_set_icon(gwindow, create_pixbuf(icon));
+    //gtk_window_set_icon(gwindow, create_pixbuf(icon));
 
     vbox = gtk_vbox_new(FALSE, 0);
     gtk_container_add(GTK_CONTAINER(window), vbox);
